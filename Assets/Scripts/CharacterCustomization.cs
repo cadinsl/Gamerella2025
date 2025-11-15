@@ -22,6 +22,8 @@ public class CharacterCustomization : MonoBehaviour
     [SerializeField] private TextMeshProUGUI hairColorText;
     [SerializeField] private TextMeshProUGUI pantsColorText;
 
+    [SerializeField] private CharacterInitializer characterInitializer;
+
     private void Awake()
     {
         faceID = PlayerPrefs.GetInt("face", 0);
@@ -225,5 +227,11 @@ public class CharacterCustomization : MonoBehaviour
                 }
                 break;
         }
+    }
+
+
+    public void next()
+    {
+        characterInitializer.setCharacter(faceID, bodyColorID, hairID, hairColorID);
     }
 }
