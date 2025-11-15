@@ -5,33 +5,22 @@ using System.Linq;
 
 public class CharacterCustomization : MonoBehaviour
 {
-    [SerializeField] private Renderer rend;
-
-    private Dictionary<string, string> colors =
-        new Dictionary<string, string>() {
-            {"Red", "#E74C3C" },
-            {"Orange", "#E78A3C"},
-            {"Yellow", "#FFFF00"},
-            {"Green", "#27D491"},
-            {"Blue", "#4C3CE7"},
-            {"Violet", "#7A3CE7"},
-            {"Black", "#1A1A1A"},
-            {"Gray", "#7F7F7F"},
-            {"White", "#EEEEEE"}
-        };
+    private Renderer rend;
 
     private int faceID;
     private int bodyColorID;
     private int hairID;
     private int hairColorID;
+    private int pantsColorID;
 
-    [SerializeField] private Texture[] faces;
-    [SerializeField] private Texture[] hairs;
+    private GameObject currentHairGameObject;
+
 
     [SerializeField] private TextMeshProUGUI faceText;
     [SerializeField] private TextMeshProUGUI hairText;
     [SerializeField] private TextMeshProUGUI bodyColorText;
     [SerializeField] private TextMeshProUGUI hairColorText;
+    [SerializeField] private TextMeshProUGUI pantsColorText;
 
     private void Awake()
     {
@@ -39,10 +28,13 @@ public class CharacterCustomization : MonoBehaviour
         hairID = PlayerPrefs.GetInt("hair", 0);
         hairColorID = PlayerPrefs.GetInt("hairColor", 3);
         bodyColorID = PlayerPrefs.GetInt("bodyColor", 2);
+        pantsColorID = PlayerPrefs.GetInt("pantsColor", 0);
     }
 
     private void Start()
     {
+        currentHairGameObject = CustomizationSingleton.Instance.hairs[0];
+        rend = currentHairGameObject.GetComponent<MeshRenderer>();
         SetItem("face");
         SetItem("hair");
         SetItem("hairColor");
@@ -53,7 +45,7 @@ public class CharacterCustomization : MonoBehaviour
     {
         if (isForward)
         {
-            if (faceID == faces.Length - 1)
+            if (faceID == CustomizationSingleton.Instance.faces.Length - 1)
             {
                 faceID = 0;
             }
@@ -66,7 +58,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (faceID == 0)
             {
-                faceID = faces.Length - 1;
+                faceID = CustomizationSingleton.Instance.faces.Length - 1;
             }
             else
             {
@@ -81,7 +73,7 @@ public class CharacterCustomization : MonoBehaviour
     {
         if (isForward)
         {
-            if (hairID == hairs.Length - 1)
+            if (hairID == CustomizationSingleton.Instance.hairs.Length - 1)
             {
                 hairID = 0;
             }
@@ -94,7 +86,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (hairID == 0)
             {
-                hairID = hairs.Length - 1;
+                hairID = CustomizationSingleton.Instance.hairs.Length - 1;
             }
             else
             {
@@ -109,7 +101,7 @@ public class CharacterCustomization : MonoBehaviour
     {
         if (isForward)
         {
-            if (bodyColorID == colors.Count - 1)
+            if (bodyColorID == CustomizationSingleton.Instance.colors.Count - 1)
             {
                 bodyColorID = 0;
             }
@@ -122,7 +114,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (bodyColorID == 0)
             {
-                bodyColorID = colors.Count - 1;
+                bodyColorID = CustomizationSingleton.Instance.colors.Count - 1;
             }
             else
             {
@@ -133,11 +125,40 @@ public class CharacterCustomization : MonoBehaviour
         SetItem("bodyColor");
     }
 
+    public void SelectPantsColor(bool isForward)
+    {
+        if (isForward)
+        {
+            if (pantsColorID == CustomizationSingleton.Instance.colors.Count - 1)
+            {
+                pantsColorID = 0;
+            }
+            else
+            {
+                pantsColorID++;
+            }
+        }
+        else
+        {
+            if (pantsColorID == 0)
+            {
+                pantsColorID = CustomizationSingleton.Instance.colors.Count - 1;
+            }
+            else
+            {
+                pantsColorID--;
+            }
+        }
+        PlayerPrefs.SetInt("pantsColor", pantsColorID);
+        SetItem("pantsColor");
+    }
+
+
     public void SelectHairColor(bool isForward)
     {
         if (isForward)
         {
-            if (hairColorID == colors.Count - 1)
+            if (hairColorID == CustomizationSingleton.Instance.colors.Count - 1)
             {
                 hairColorID = 0;
             }
@@ -150,7 +171,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (hairColorID == 0)
             {
-                hairColorID = colors.Count - 1;
+                hairColorID = CustomizationSingleton.Instance.colors.Count - 1;
             }
             else
             {
@@ -166,27 +187,41 @@ public class CharacterCustomization : MonoBehaviour
         switch (type)
         {
             case "face":
-                faceText.text = faces[faceID].name;
-                rend.materials[2].SetTexture("_PrimaryTexture", faces[faceID]);
+                faceText.text = CustomizationSingleton.Instance.faces[faceID].name;
+                rend.materials[0].SetTexture("_BaseMap", CustomizationSingleton.Instance.faces[faceID]);
                 break;
             case "hair":
-                hairText.text = hairs[hairID].name;
-                rend.materials[2].SetTexture("_SecondaryTexture", hairs[hairID]);
+                hairText.text = CustomizationSingleton.Instance.hairs[hairID].name;
+                currentHairGameObject.SetActive(false);
+                currentHairGameObject = CustomizationSingleton.Instance.hairs[hairID];
+                currentHairGameObject.SetActive(true);
+                rend = currentHairGameObject.GetComponent<MeshRenderer>();
+                SetItem("face");
+                SetItem("hairColor");
+                SetItem("bodyColor");
                 break;
             case "hairColor":
-                string screenColorName = colors.Keys.ElementAt(hairColorID);
+                string screenColorName = CustomizationSingleton.Instance.colors.Keys.ElementAt(hairColorID);
                 hairColorText.text = screenColorName.ToLower();
-                if (ColorUtility.TryParseHtmlString(colors.Values.ElementAt(hairColorID), out Color hairColor))
+                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(hairColorID), out Color hairColor))
                 {
-                    rend.materials[2].SetColor("_BaseColor", hairColor);
+                    //rend.materials[2].SetColor("_BaseColor", hairColor);
                 }
                 break;
             case "bodyColor":
-                string bodyColorName = colors.Keys.ElementAt(bodyColorID);
+                string bodyColorName = CustomizationSingleton.Instance.colors.Keys.ElementAt(bodyColorID);
                 bodyColorText.text = bodyColorName.ToLower();
-                if (ColorUtility.TryParseHtmlString(colors.Values.ElementAt(bodyColorID), out Color bodyColor))
+                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(bodyColorID), out Color bodyColor))
                 {
-                    rend.materials[0].SetColor("_BaseColor", bodyColor);
+                    //rend.materials[0].SetColor("_BaseColor", bodyColor);
+                }
+                break;
+            case "pantsColor":
+                string pantsColorName = CustomizationSingleton.Instance.colors.Keys.ElementAt(pantsColorID);
+                pantsColorText.text = pantsColorName.ToLower();
+                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(pantsColorID), out Color pantsColor))
+                {
+                    //rend.materials[0].SetColor("_BaseColor", bodyColor);
                 }
                 break;
         }
