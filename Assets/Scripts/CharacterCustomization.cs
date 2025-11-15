@@ -215,7 +215,7 @@ public class CharacterCustomization : MonoBehaviour
                 bodyColorText.text = bodyColorName.ToLower();
                 if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(bodyColorID), out Color bodyColor))
                 {
-                    //rend.materials[0].SetColor("_BaseColor", bodyColor);
+                    rend.materials[0].SetColor("_BaseColor", bodyColor);
                 }
                 break;
             case "pantsColor":

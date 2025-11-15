@@ -46,7 +46,7 @@ public class CharacterInitializer : MonoBehaviour
     {
         if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(cHairColorID), out Color hairColor))
         {
-            rend.materials[0].SetColor("_BaseColor", hairColor);
+            //rend.materials[0].SetColor("_BaseColor", hairColor);
         }
     }
 
