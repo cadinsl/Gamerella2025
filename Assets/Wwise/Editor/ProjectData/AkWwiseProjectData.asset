@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3067175f46f81d43a495efb41ed1c6e0
     GuidInternal: 
-    m_lastTime: -8584383552498345413
+    m_lastTime: -8584383491035738699
     List:
     - name: Main
       guid: 4a911f4c2f5235409e7aeca1b1c0baf9
@@ -94,8 +94,42 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 76280553604e4749acf24a68f16abe9d
     GuidInternal: 
-    m_lastTime: -8584383552498502743
-    List: []
+    m_lastTime: -8584383491042696592
+    List:
+    - name: Play_Footsteps
+      guid: fa5633f0a07146448238111cbbd81496
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: fa5633f0a07146448238111cbbd81496
+      Path: Events\Default Work Unit\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.5286891
+      minDuration: 0.45182294
+    - name: Play_MUS_GAMEPLAY
+      guid: aeb387ecc0abad43a9fc68728aafe79b
+      id: 2201569778
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_MUS_GAMEPLAY
+        ObjectType: 3
+        guid: aeb387ecc0abad43a9fc68728aafe79b
+      Path: Events\Default Work Unit\Play_MUS_GAMEPLAY
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -136,8 +170,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 18ef0792c2037c42ba69bfc01603be8d
     GuidInternal: 
-    m_lastTime: -8584383552498329528
-    List: []
+    m_lastTime: -8584383514638810430
+    List:
+    - name: Foosteps
+      guid: d4e663280dd70a44a998e20b0aabfef7
+      id: 1012989952
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 18ef0792c2037c42ba69bfc01603be8d
+      - ElementName: Foosteps
+        ObjectType: 11
+        guid: d4e663280dd70a44a998e20b0aabfef7
+      Path: Switches\Default Work Unit\Foosteps
+      values:
+      - name: Carpet
+        guid: c0c9da83790155419a1423ceb5002fd2
+        id: 2412606308
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 18ef0792c2037c42ba69bfc01603be8d
+        - ElementName: Foosteps
+          ObjectType: 11
+          guid: d4e663280dd70a44a998e20b0aabfef7
+        - ElementName: Carpet
+          ObjectType: 10
+          guid: c0c9da83790155419a1423ceb5002fd2
+      - name: Hardfloor
+        guid: f72d7628c179bc48926133baff578553
+        id: 3928445212
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 18ef0792c2037c42ba69bfc01603be8d
+        - ElementName: Foosteps
+          ObjectType: 11
+          guid: d4e663280dd70a44a998e20b0aabfef7
+        - ElementName: Hardfloor
+          ObjectType: 10
+          guid: f72d7628c179bc48926133baff578553
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -153,7 +237,7 @@ MonoBehaviour:
     m_lastTime: -8584383552498318759
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0a0000000b000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000006b0000006c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

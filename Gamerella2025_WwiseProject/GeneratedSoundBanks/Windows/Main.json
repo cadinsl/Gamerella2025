@@ -10,12 +10,384 @@
     "Type": "User",
     "GUID": "{4C1F914A-522F-4035-9E7A-ECA1B1C0BAF9}",
     "Language": "SFX",
-    "Hash": "{11CE3D2C-B4A2-49DB-D6D7-5BEFB7DE3069}",
+    "Hash": "{82DEAABE-AE42-4713-F1FE-BD39C2A91804}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
-    "Path": "Main.bnk"
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "31341927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_04.wav",
+      "CachePath": "9F/{9F929B88-898F-6A5C-F827-6194C97A7577}.wem"
+     },
+     {
+      "Id": "31534451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_PianoLead_Zone1_16bar_140.wav",
+      "CachePath": "CF/{CF9FE99D-F247-AEE6-6F15-A081894ADC0E}.wem"
+     },
+     {
+      "Id": "40053902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_04.wav",
+      "CachePath": "A7/{A7539220-C15A-E0F2-186B-B0B187CD20D4}.wem"
+     },
+     {
+      "Id": "104195498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_01.wav",
+      "CachePath": "2C/{2C0CA474-D25E-EFB4-89D9-0CBFC5F9D877}.wem"
+     },
+     {
+      "Id": "113918725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_06.wav",
+      "CachePath": "A9/{A985DDDF-4DE4-199F-3312-FD450627473F}.wem"
+     },
+     {
+      "Id": "195080778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_10.wav",
+      "CachePath": "99/{995B3605-BAD2-18D3-C83B-0CA04FC25ED6}.wem"
+     },
+     {
+      "Id": "210195250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_10.wav",
+      "CachePath": "9D/{9DACFEA8-5981-196F-F645-44BFE75089B2}.wem"
+     },
+     {
+      "Id": "226153435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_01.wav",
+      "CachePath": "CC/{CCDD3490-88AF-71C6-D047-B4E6D33F0298}.wem"
+     },
+     {
+      "Id": "237620839",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano3_Zone1.5_16bar_140.wav",
+      "CachePath": "DE/{DE05762E-0731-879D-DF81-6F0F0DBF5A08}.wem"
+     },
+     {
+      "Id": "291823059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_08.wav",
+      "CachePath": "CE/{CE051D83-ED5D-A58E-AF9C-6B4386F7CFE7}.wem"
+     },
+     {
+      "Id": "342816583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_02.wav",
+      "CachePath": "F2/{F2C63A16-4208-77D8-445A-0B3C21134120}.wem"
+     },
+     {
+      "Id": "396160927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_09.wav",
+      "CachePath": "C6/{C6597217-3653-0743-2B9B-C4C210FCE11E}.wem"
+     },
+     {
+      "Id": "403576211",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_08.wav",
+      "CachePath": "3C/{3CF8CCF6-19AB-DCA6-A926-3AFEF370E540}.wem"
+     },
+     {
+      "Id": "546517171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_05.wav",
+      "CachePath": "F8/{F8566155-C644-A2D8-16A4-EB4A0C4098E9}.wem"
+     },
+     {
+      "Id": "666457954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_06.wav",
+      "CachePath": "9F/{9FFD65E5-43E1-2C2F-8A14-EA3C7D678995}.wem"
+     },
+     {
+      "Id": "699375638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_03.wav",
+      "CachePath": "4E/{4E6BED0C-DE56-435F-01D3-12F90B5E05B2}.wem"
+     },
+     {
+      "Id": "710662228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_05.wav",
+      "CachePath": "10/{1019584B-6D3B-1DF0-B230-3C0CDB105FCA}.wem"
+     },
+     {
+      "Id": "764399647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano2_Zone1_16bar_140.wav",
+      "CachePath": "60/{602A9338-2916-81EE-C4B9-D93B046D5F63}.wem"
+     },
+     {
+      "Id": "765274988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano2_Zone1.5_16bar_140.wav",
+      "CachePath": "F3/{F3DF7BAA-16EA-0463-E660-7D34130AD77B}.wem"
+     },
+     {
+      "Id": "861666903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_07.wav",
+      "CachePath": "EA/{EA4EAC00-CBE8-8106-89CB-03DFEADFFDC6}.wem"
+     },
+     {
+      "Id": "918899714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano3_Zone1_16bar_140.wav",
+      "CachePath": "7B/{7B84A671-42AF-E6A5-785F-82931A56C817}.wem"
+     },
+     {
+      "Id": "921246295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_PianoLead_Zone1.5_16bar_140.wav",
+      "CachePath": "C9/{C9AB41EA-6326-5AC0-15BD-32E8D4DC2DE1}.wem"
+     },
+     {
+      "Id": "943090276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_02.wav",
+      "CachePath": "13/{133C8B77-FC1D-347E-8738-599440E9BABA}.wem"
+     },
+     {
+      "Id": "955541119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_03.wav",
+      "CachePath": "1F/{1F531AFD-C5BF-EC5A-7694-7A82C9919A8A}.wem"
+     },
+     {
+      "Id": "993399933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_07.wav",
+      "CachePath": "EA/{EA81BD28-79FE-2B60-40F5-18845D7B31DE}.wem"
+     },
+     {
+      "Id": "1049427299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_09.wav",
+      "CachePath": "5F/{5F67F9A2-340E-7013-BB0E-C3AA762DA1A8}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{F03356FA-71A0-4446-8238-111CBBD81496}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45182294",
+      "DurationMax": "0.5286891",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1012989952",
+         "Id": "2412606308",
+         "GUID": "{83DAC9C0-0179-4155-9A14-23CEB5002FD2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "31341927"
+         },
+         {
+          "Id": "104195498"
+         },
+         {
+          "Id": "113918725"
+         },
+         {
+          "Id": "210195250"
+         },
+         {
+          "Id": "291823059"
+         },
+         {
+          "Id": "342816583"
+         },
+         {
+          "Id": "396160927"
+         },
+         {
+          "Id": "699375638"
+         },
+         {
+          "Id": "710662228"
+         },
+         {
+          "Id": "861666903"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1012989952",
+         "Id": "3928445212",
+         "GUID": "{28762DF7-79C1-48BC-9261-33BAFF578553}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40053902"
+         },
+         {
+          "Id": "195080778"
+         },
+         {
+          "Id": "226153435"
+         },
+         {
+          "Id": "403576211"
+         },
+         {
+          "Id": "546517171"
+         },
+         {
+          "Id": "666457954"
+         },
+         {
+          "Id": "943090276"
+         },
+         {
+          "Id": "955541119"
+         },
+         {
+          "Id": "993399933"
+         },
+         {
+          "Id": "1049427299"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "2201569778",
+      "Name": "Play_MUS_GAMEPLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUS_GAMEPLAY",
+      "GUID": "{EC87B3AE-ABC0-43AD-A9FC-68728AAFE79B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "31534451"
+       },
+       {
+        "Id": "237620839"
+       },
+       {
+        "Id": "764399647"
+       },
+       {
+        "Id": "765274988"
+       },
+       {
+        "Id": "918899714"
+       },
+       {
+        "Id": "921246295"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1012989952",
+      "Name": "Foosteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps",
+      "GUID": "{2863E6D4-D70D-440A-A998-E20B0AABFEF7}",
+      "Switches": [
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps\\Carpet",
+        "GUID": "{83DAC9C0-0179-4155-9A14-23CEB5002FD2}"
+       },
+       {
+        "Id": "3928445212",
+        "Name": "Hardfloor",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps\\Hardfloor",
+        "GUID": "{28762DF7-79C1-48BC-9261-33BAFF578553}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{36B1DEDE-6998-7FCC-AB36-89BD64AFEAE3}"
+  "FileHash": "{4512B8E9-F42D-D6E8-0046-F3EA66D3932C}"
  }
 }
