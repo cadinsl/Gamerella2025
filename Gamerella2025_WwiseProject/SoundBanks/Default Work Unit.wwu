@@ -7,6 +7,12 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_MUS_GAMEPLAY" ID="{EC87B3AE-ABC0-43AD-A9FC-68728AAFE79B}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{F03356FA-71A0-4446-8238-111CBBD81496}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Overview" ID="{D61A2E3D-34A1-453A-A789-9CF14EC412DF}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Toggle_Left" ID="{D0329684-FDC0-45A3-8218-9F8D4F90F3CC}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Overview_Back" ID="{D6160B3B-FCF5-4699-9339-AF133A17B49E}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Hover_On" ID="{B6A1CE3D-7E85-49C6-B9C9-0B4EE166A8CB}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Toggle_Right" ID="{2F1C39E3-AA59-4E5C-A0A4-72885E70173E}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UI_Menu_Hover_Off" ID="{4743BEBC-CA3D-4F46-9DA1-3282ACA14112}" WorkUnitID="{53052876-4E60-4947-ACF2-4A68F16ABE9D}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

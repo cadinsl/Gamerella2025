@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4C1F914A-522F-4035-9E7A-ECA1B1C0BAF9}",
     "Language": "SFX",
-    "Hash": "{82DEAABE-AE42-4713-F1FE-BD39C2A91804}",
+    "Hash": "{EDD88759-8181-3C09-D324-916BAC78C0A5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -120,12 +120,28 @@
       "CachePath": "3C/{3CF8CCF6-19AB-DCA6-A926-3AFEF370E540}.wem"
      },
      {
+      "Id": "480096892",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hover\\UI_Menu_Hover_On.wav",
+      "CachePath": "F5/{F51294F1-614A-555B-D1D5-B3ED72369F22}.wem"
+     },
+     {
       "Id": "546517171",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Hardfloor_Footsteps_05.wav",
       "CachePath": "F8/{F8566155-C644-A2D8-16A4-EB4A0C4098E9}.wem"
+     },
+     {
+      "Id": "558832127",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Hover\\UI_Menu_Hover_Off.wav",
+      "CachePath": "57/{578B00C8-6F6E-EE14-D436-70B6F4A90B7E}.wem"
      },
      {
       "Id": "666457954",
@@ -152,6 +168,22 @@
       "CachePath": "10/{1019584B-6D3B-1DF0-B230-3C0CDB105FCA}.wem"
      },
      {
+      "Id": "715994317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Toggle\\UI_Menu_Toggle_Left.wav",
+      "CachePath": "1C/{1C81EE05-50E7-CFEB-29A7-725F82268F32}.wem"
+     },
+     {
+      "Id": "745550794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Toggle\\UI_Menu_Toggle_Right.wav",
+      "CachePath": "44/{44C0B3AA-5BBE-0378-9306-F7836EA591E3}.wem"
+     },
+     {
       "Id": "764399647",
       "Language": "SFX",
       "Streaming": "false",
@@ -166,6 +198,14 @@
       "Location": "Memory",
       "ShortName": "BGM_Curyeux_HUB3_Piano2_Zone1.5_16bar_140.wav",
       "CachePath": "F3/{F3DF7BAA-16EA-0463-E660-7D34130AD77B}.wem"
+     },
+     {
+      "Id": "768151296",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Overview\\UI_Menu_Overview.wav",
+      "CachePath": "1D/{1DFC2330-CA4C-3D9A-AE02-101BE3BBDE1E}.wem"
      },
      {
       "Id": "861666903",
@@ -206,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "SFX_Player_Hardfloor_Footsteps_03.wav",
       "CachePath": "1F/{1F531AFD-C5BF-EC5A-7694-7A82C9919A8A}.wem"
+     },
+     {
+      "Id": "957818667",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Overview\\UI_Menu_Overview_Back.wav",
+      "CachePath": "74/{747E80D4-338D-AAEF-F61C-6F627C443C41}.wem"
      },
      {
       "Id": "993399933",
@@ -362,6 +410,90 @@
         "Id": "921246295"
        }
       ]
+     },
+     {
+      "Id": "3364556447",
+      "Name": "Play_UI_Menu_Hover_Off",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Hover_Off",
+      "GUID": "{4743BEBC-CA3D-4F46-9DA1-3282ACA14112}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.39966094",
+      "DurationMax": "0.39966094",
+      "MediaRefs": [
+       {
+        "Id": "558832127"
+       }
+      ]
+     },
+     {
+      "Id": "149435595",
+      "Name": "Play_UI_Menu_Hover_On",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Hover_On",
+      "GUID": "{B6A1CE3D-7E85-49C6-B9C9-0B4EE166A8CB}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.30998093",
+      "DurationMax": "0.30998093",
+      "MediaRefs": [
+       {
+        "Id": "480096892"
+       }
+      ]
+     },
+     {
+      "Id": "171419728",
+      "Name": "Play_UI_Menu_Overview",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Overview",
+      "GUID": "{D61A2E3D-34A1-453A-A789-9CF14EC412DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.4880064",
+      "DurationMax": "2.4880064",
+      "MediaRefs": [
+       {
+        "Id": "768151296"
+       }
+      ]
+     },
+     {
+      "Id": "1828689550",
+      "Name": "Play_UI_Menu_Overview_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Overview_Back",
+      "GUID": "{D6160B3B-FCF5-4699-9339-AF133A17B49E}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5024085",
+      "DurationMax": "2.5024085",
+      "MediaRefs": [
+       {
+        "Id": "957818667"
+       }
+      ]
+     },
+     {
+      "Id": "1448346335",
+      "Name": "Play_UI_Menu_Toggle_Left",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Toggle_Left",
+      "GUID": "{D0329684-FDC0-45A3-8218-9F8D4F90F3CC}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.11831726",
+      "DurationMax": "0.11831726",
+      "MediaRefs": [
+       {
+        "Id": "715994317"
+       }
+      ]
+     },
+     {
+      "Id": "1910474978",
+      "Name": "Play_UI_Menu_Toggle_Right",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Menu_Toggle_Right",
+      "GUID": "{2F1C39E3-AA59-4E5C-A0A4-72885E70173E}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12357581",
+      "DurationMax": "0.12357581",
+      "MediaRefs": [
+       {
+        "Id": "745550794"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -388,6 +520,6 @@
     ]
    }
   ],
-  "FileHash": "{4512B8E9-F42D-D6E8-0046-F3EA66D3932C}"
+  "FileHash": "{94BB4799-225F-9801-4F8B-7B8AFB73132B}"
  }
 }

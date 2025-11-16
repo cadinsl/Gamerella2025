@@ -13,9 +13,32 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_CREATE = 1298183142U;
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_MUS_GAMEPLAY = 2201569778U;
+        static const AkUniqueID PLAY_UI_MENU_HOVER_OFF = 3364556447U;
+        static const AkUniqueID PLAY_UI_MENU_HOVER_ON = 149435595U;
+        static const AkUniqueID PLAY_UI_MENU_OVERVIEW = 171419728U;
+        static const AkUniqueID PLAY_UI_MENU_OVERVIEW_BACK = 1828689550U;
+        static const AkUniqueID PLAY_UI_MENU_TOGGLE_LEFT = 1448346335U;
+        static const AkUniqueID PLAY_UI_MENU_TOGGLE_RIGHT = 1910474978U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAMEPLAY
+        {
+            static const AkUniqueID GROUP = 89505537U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OVERVIEW = 2617105480U;
+            } // namespace STATE
+        } // namespace GAMEPLAY
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

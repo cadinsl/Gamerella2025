@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3067175f46f81d43a495efb41ed1c6e0
     GuidInternal: 
-    m_lastTime: -8584383491035738699
+    m_lastTime: -8584382829586148668
     List:
     - name: Main
       guid: 4a911f4c2f5235409e7aeca1b1c0baf9
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 76280553604e4749acf24a68f16abe9d
     GuidInternal: 
-    m_lastTime: -8584383491042696592
+    m_lastTime: -8584382829705420220
     List:
+    - name: Play_Create
+      guid: b6f3c66f83ef0d48951aca6ecce85d85
+      id: 1298183142
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_Create
+        ObjectType: 3
+        guid: b6f3c66f83ef0d48951aca6ecce85d85
+      Path: Events\Default Work Unit\Play_Create
+      maxAttenuation: 0
+      maxDuration: 0.20940463
+      minDuration: 0.19599845
     - name: Play_Footsteps
       guid: fa5633f0a07146448238111cbbd81496
       id: 3854155799
@@ -130,6 +147,108 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_UI_Menu_Hover_Off
+      guid: bcbe43473dca464f9da13282aca14112
+      id: 3364556447
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Hover_Off
+        ObjectType: 3
+        guid: bcbe43473dca464f9da13282aca14112
+      Path: Events\Default Work Unit\Play_UI_Menu_Hover_Off
+      maxAttenuation: 0
+      maxDuration: 0.39966094
+      minDuration: 0.39966094
+    - name: Play_UI_Menu_Hover_On
+      guid: 3dcea1b6857ec649b9c90b4ee166a8cb
+      id: 149435595
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Hover_On
+        ObjectType: 3
+        guid: 3dcea1b6857ec649b9c90b4ee166a8cb
+      Path: Events\Default Work Unit\Play_UI_Menu_Hover_On
+      maxAttenuation: 0
+      maxDuration: 0.30998093
+      minDuration: 0.30998093
+    - name: Play_UI_Menu_Overview
+      guid: 3d2e1ad6a1343a45a7899cf14ec412df
+      id: 171419728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Overview
+        ObjectType: 3
+        guid: 3d2e1ad6a1343a45a7899cf14ec412df
+      Path: Events\Default Work Unit\Play_UI_Menu_Overview
+      maxAttenuation: 0
+      maxDuration: 2.9344792
+      minDuration: 2.9344792
+    - name: Play_UI_Menu_Overview_Back
+      guid: 3b0b16d6f5fc99469339af133a17b49e
+      id: 1828689550
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Overview_Back
+        ObjectType: 3
+        guid: 3b0b16d6f5fc99469339af133a17b49e
+      Path: Events\Default Work Unit\Play_UI_Menu_Overview_Back
+      maxAttenuation: 0
+      maxDuration: 2.9344792
+      minDuration: 2.9344792
+    - name: Play_UI_Menu_Toggle_Left
+      guid: 849632d0c0fda34582189f8d4f90f3cc
+      id: 1448346335
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Toggle_Left
+        ObjectType: 3
+        guid: 849632d0c0fda34582189f8d4f90f3cc
+      Path: Events\Default Work Unit\Play_UI_Menu_Toggle_Left
+      maxAttenuation: 0
+      maxDuration: 0.11831726
+      minDuration: 0.11831726
+    - name: Play_UI_Menu_Toggle_Right
+      guid: e3391c2f59aa5c4ea0a472885e70173e
+      id: 1910474978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 76280553604e4749acf24a68f16abe9d
+      - ElementName: Play_UI_Menu_Toggle_Right
+        ObjectType: 3
+        guid: e3391c2f59aa5c4ea0a472885e70173e
+      Path: Events\Default Work Unit\Play_UI_Menu_Toggle_Right
+      maxAttenuation: 0
+      maxDuration: 0.12357581
+      minDuration: 0.12357581
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -303,7 +422,7 @@ MonoBehaviour:
     m_lastTime: -8584383552498318759
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000006b0000006c000000
+  ExpandedWaapiItemIds: 05000000060000000a0000000b0000000c0000000d0000000e0000006b0000006c000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

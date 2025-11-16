@@ -25,6 +25,83 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Create" ID="{6FC6F3B6-EF83-480D-951A-CA6ECCE85D85}">
+					<ChildrenList>
+						<Action Name="" ID="{D2001812-90AD-44CD-A983-BDB10B504BAC}" ShortID="506228112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Create" ID="{1A80C887-8624-45AB-BCF3-7B03D38ACA00}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Hover_Off" ID="{4743BEBC-CA3D-4F46-9DA1-3282ACA14112}">
+					<ChildrenList>
+						<Action Name="" ID="{44AE4258-0391-4DDE-8062-CB8F72E0809A}" ShortID="890229856">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Hover_Off" ID="{017B6954-0218-4B66-B22F-527AE4E0EAEB}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Hover_On" ID="{B6A1CE3D-7E85-49C6-B9C9-0B4EE166A8CB}">
+					<ChildrenList>
+						<Action Name="" ID="{E39D0AF9-B360-43E0-8816-56DE2623CCB5}" ShortID="664246598">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Hover_On" ID="{34AC686D-AC3D-4BA0-A2F7-BF19984857CF}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Overview" ID="{D61A2E3D-34A1-453A-A789-9CF14EC412DF}">
+					<ChildrenList>
+						<Action Name="" ID="{109B21C2-E6DA-44C9-991F-795965CB2D56}" ShortID="871541649">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Overview" ID="{BED6F0FC-EBD2-4BF7-A39B-C47808885207}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Overview_Back" ID="{D6160B3B-FCF5-4699-9339-AF133A17B49E}">
+					<ChildrenList>
+						<Action Name="" ID="{D2B48984-6643-4B37-B5B3-D28463047F70}" ShortID="397075848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Overview_Back" ID="{73B003AD-C04A-429B-B928-35E157BCA116}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Toggle_Left" ID="{D0329684-FDC0-45A3-8218-9F8D4F90F3CC}">
+					<ChildrenList>
+						<Action Name="" ID="{50BDDB7A-E31D-4B29-B8E2-F270AFEA554D}" ShortID="560772069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Toggle_Left" ID="{1F582C4F-CD5A-4CAD-A7C2-E9778DEC4B03}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_Menu_Toggle_Right" ID="{2F1C39E3-AA59-4E5C-A0A4-72885E70173E}">
+					<ChildrenList>
+						<Action Name="" ID="{1FF818A9-83D6-420F-AD38-7D441636FA81}" ShortID="999698152">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Menu_Toggle_Right" ID="{0E74D22D-2AED-42DB-A66C-24864618AC55}" WorkUnitID="{17F129C1-33DE-4812-92BE-7C9C88940B1E}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
