@@ -635,6 +635,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Create" ID="{1A80C887-8624-45AB-BCF3-7B03D38ACA00}" ShortID="822210200">
 									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>28</Value>
+											</ValueList>
+										</Property>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 									</PropertyList>
@@ -1012,6 +1017,7 @@
 												<Property Name="FadeInDuration" Type="Real64" Value="0.687712311890958"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="1.10898111027443"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.4880062521406"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Overview\UI_Menu_Overview.wav</AudioFile>
@@ -1039,6 +1045,7 @@
 												<Property Name="FadeInDuration" Type="Real64" Value="0.694913487931702"/>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.921750533215107"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.50240860422209"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Overview\UI_Menu_Overview_Back.wav</AudioFile>

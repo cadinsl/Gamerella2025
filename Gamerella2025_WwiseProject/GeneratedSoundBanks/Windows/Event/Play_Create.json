@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{6FC6F3B6-EF83-480D-951A-CA6ECCE85D85}",
     "Language": "SFX",
-    "Hash": "{04954664-1C2C-E507-CF4E-CA6CD835794C}",
+    "Hash": "{8D2DEA42-3224-EE9E-92DB-39D6F0AA221E}",
     "ObjectPath": "Play_Create",
     "ShortName": "Play_Create",
     "Path": "Event/Play_Create.bnk",
@@ -151,6 +151,6 @@
     ]
    }
   ],
-  "FileHash": "{DA942AC6-3151-AEE9-083E-509BD1BD492E}"
+  "FileHash": "{7CB631B7-ACCF-FC26-918F-31D23815E1D4}"
  }
 }
