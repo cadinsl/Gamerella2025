@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
         ControlCamera.SetActive(false);
         ControlUI.SetActive(false);
         SelectionController.SetActive(true);
+        Camera.main.orthographic = false;
     }
 
     public void goToCustomization()
@@ -47,6 +48,7 @@ public class GameManager : MonoBehaviour
         ControlCamera.SetActive(true);
         OverviewCamera.SetActive(false);
         ControlCamera.GetComponent<CinemachineCamera>().Follow = character.transform;
+        Camera.main.orthographic = true;
     }
 
     private void Awake()
