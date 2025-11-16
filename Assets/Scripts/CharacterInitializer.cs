@@ -21,7 +21,7 @@ public class CharacterInitializer : MonoBehaviour
     public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID)
     {
         characterInstance = setHair(cHairID);
-        rend = characterInstance.GetComponent<MeshRenderer>();
+        rend = characterInstance.GetComponent<MiiCustomization>().rend;
         setFace(cFaceID);
         setHairColor(cHairColorID);
         setBodyColor(cBodyColorID);
@@ -39,7 +39,7 @@ public class CharacterInitializer : MonoBehaviour
 
     private void setFace(int cFaceID)
     {
-        rend.materials[0].SetTexture("_BaseMap", CustomizationSingleton.Instance.faces[cFaceID]);
+        rend.materials[1].SetTexture("_BaseMap", CustomizationSingleton.Instance.faces[cFaceID]);
     }
 
     private void setHairColor(int cHairColorID)

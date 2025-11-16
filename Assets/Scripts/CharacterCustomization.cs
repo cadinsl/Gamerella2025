@@ -36,7 +36,7 @@ public class CharacterCustomization : MonoBehaviour
     private void Start()
     {
         currentHairGameObject = CustomizationSingleton.Instance.hairs[0];
-        rend = currentHairGameObject.GetComponent<MeshRenderer>();
+        rend = currentHairGameObject.GetComponent<MiiCustomization>().rend;
         SetItem("face");
         SetItem("hair");
         SetItem("hairColor");
@@ -190,14 +190,14 @@ public class CharacterCustomization : MonoBehaviour
         {
             case "face":
                 faceText.text = CustomizationSingleton.Instance.faces[faceID].name;
-                rend.materials[0].SetTexture("_BaseMap", CustomizationSingleton.Instance.faces[faceID]);
+                rend.materials[1].SetTexture("_BaseMap", CustomizationSingleton.Instance.faces[faceID]);
                 break;
             case "hair":
                 hairText.text = CustomizationSingleton.Instance.hairs[hairID].name;
                 currentHairGameObject.SetActive(false);
                 currentHairGameObject = CustomizationSingleton.Instance.hairs[hairID];
                 currentHairGameObject.SetActive(true);
-                rend = currentHairGameObject.GetComponent<MeshRenderer>();
+                rend = currentHairGameObject.GetComponent<MiiCustomization>().rend;
                 SetItem("face");
                 SetItem("hairColor");
                 SetItem("bodyColor");

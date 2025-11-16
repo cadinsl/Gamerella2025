@@ -8,6 +8,9 @@ public class CharacterControl : MonoBehaviour
     public float movementSpeed;
     private InputAction moveInput;
     private CharacterController characterController;
+    public Footsteps footsteps;
+    public Animator animator;
+    public GameObject characterObject;
     private void Awake()
     {
         inputSystem = new InputSystem();
@@ -34,12 +37,15 @@ public class CharacterControl : MonoBehaviour
             move = Vector3.ClampMagnitude(move, 1);
             move = Quaternion.Euler(0, -305, 0) * move;
             characterController.SimpleMove(move * movementSpeed);
+            animator.SetFloat("_speed", characterController.velocity.magnitude);
+            characterObject.transform.forward = move;
         }
     }
 
     public void enableControl()
     {
         isActive = true;
+        footsteps.isActive = true;
         gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         characterController.enabled = true;
     }
@@ -47,6 +53,7 @@ public class CharacterControl : MonoBehaviour
     public void disableControl()
     {
         isActive = false;
+        footsteps.isActive = false;
         characterController.enabled = false;
     }
 }

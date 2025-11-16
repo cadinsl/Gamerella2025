@@ -20,6 +20,7 @@ public class NPCWalker : MonoBehaviour
     private float walkTimerTimeMin = 15;
 
     public AK.Wwise.Event footstepSound;
+    public Animator animator;
 
 
     [SerializeField] private Transform currentDestinationPoint;
@@ -41,6 +42,7 @@ public class NPCWalker : MonoBehaviour
         if (_isStopTimerActive)
         {
             _stopCurrentTime -= Time.deltaTime;
+            animator.SetFloat("_speed", 0);
             if (_stopCurrentTime <= 0)
             {
                 stopTimerEnd();
@@ -52,6 +54,8 @@ public class NPCWalker : MonoBehaviour
         {
             //playFootsteps();
             _walkCurrentTime -= Time.deltaTime;
+
+            animator.SetFloat("_speed", agent.velocity.magnitude);
 
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance + stoppingThreshold)
             {
