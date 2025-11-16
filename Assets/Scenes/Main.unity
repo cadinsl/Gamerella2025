@@ -1834,8 +1834,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359492007}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.28579032, y: 0.30418193, z: -0.09617169, w: 0.9036306}
-  m_LocalPosition: {x: 0, y: 23, z: -12.6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.41, z: -4.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2494,7 +2494,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &429882505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6041,6 +6041,7 @@ GameObject:
   - component: {fileID: 1255229371}
   - component: {fileID: 1255229370}
   - component: {fileID: 1255229372}
+  - component: {fileID: 1255229373}
   m_Layer: 0
   m_Name: ControlCamera
   m_TagString: Untagged
@@ -6073,7 +6074,7 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60.000004
-    OrthographicSize: 5
+    OrthographicSize: 6
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -6124,7 +6125,20 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: -7.7, y: 9.3, z: -2.82}
+  FollowOffset: {x: -5.8, y: 5.84, z: -4.01}
+--- !u!114 &1255229373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255229368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e8b78ac948f05a46a6d8339a503172b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LookAtOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &1329529571
 GameObject:
   m_ObjectHideFlags: 0
