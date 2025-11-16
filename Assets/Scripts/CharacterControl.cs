@@ -32,6 +32,7 @@ public class CharacterControl : MonoBehaviour
         {
             Vector3 move = new Vector3(moveInput.ReadValue<Vector2>().x, 0, moveInput.ReadValue<Vector2>().y);
             move = Vector3.ClampMagnitude(move, 1);
+            move = Quaternion.Euler(0, -305, 0) * move;
             characterController.SimpleMove(move * movementSpeed);
         }
     }
@@ -39,6 +40,7 @@ public class CharacterControl : MonoBehaviour
     public void enableControl()
     {
         isActive = true;
+        gameObject.transform.rotation = Quaternion.Euler(0, 0, 0);
         characterController.enabled = true;
     }
 
