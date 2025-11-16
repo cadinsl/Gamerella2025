@@ -154,6 +154,10 @@ MonoBehaviour:
   _walkCurrentTime: 0
   stopTimerTime: 3
   walkTimerTime: 10
+  footstepSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 754da3763b6165546ae468d607d85f25, type: 2}
   currentDestinationPoint: {fileID: 0}
   stoppingThreshold: 0.5
 --- !u!114 &3899871861968332303
@@ -209,3 +213,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterControl: {fileID: 0}
   agent: {fileID: 0}
+  npcWalker: {fileID: 0}

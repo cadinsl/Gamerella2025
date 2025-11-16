@@ -156,6 +156,10 @@ MonoBehaviour:
   _walkCurrentTime: 0
   stopTimerTime: 3
   walkTimerTime: 10
+  footstepSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 754da3763b6165546ae468d607d85f25, type: 2}
   currentDestinationPoint: {fileID: 0}
   stoppingThreshold: 0.5
 --- !u!114 &5994254698195403480
