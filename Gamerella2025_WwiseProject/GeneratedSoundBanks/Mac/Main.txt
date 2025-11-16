@@ -9,6 +9,14 @@ Switch	ID	Name	Switch Group			Notes
 	2412606308	Carpet	Foosteps			
 	3928445212	Hardfloor	Foosteps			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	89505537	Gameplay			\Default Work Unit\Gameplay	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Gameplay			
+	2607556080	Menu	Gameplay			
+	2617105480	Overview	Gameplay			
+
 Effect plug-ins	ID	Name	Type				Notes
 	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
 

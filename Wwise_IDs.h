@@ -17,6 +17,22 @@ namespace AK
         static const AkUniqueID PLAY_MUS_GAMEPLAY = 2201569778U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace GAMEPLAY
+        {
+            static const AkUniqueID GROUP = 89505537U;
+
+            namespace STATE
+            {
+                static const AkUniqueID MENU = 2607556080U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OVERVIEW = 2617105480U;
+            } // namespace STATE
+        } // namespace GAMEPLAY
+
+    } // namespace STATES
+
     namespace SWITCHES
     {
         namespace FOOSTEPS
