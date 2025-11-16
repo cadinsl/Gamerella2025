@@ -1,0 +1,156 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1298183142",
+    "Type": "Event",
+    "GUID": "{6FC6F3B6-EF83-480D-951A-CA6ECCE85D85}",
+    "Language": "SFX",
+    "Hash": "{04954664-1C2C-E507-CF4E-CA6CD835794C}",
+    "ObjectPath": "Play_Create",
+    "ShortName": "Play_Create",
+    "Path": "Event/Play_Create.bnk",
+    "Media": [
+     {
+      "Id": "101717366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_01.wav",
+      "Path": "Media/101717366.wem",
+      "CachePath": "95/{95416DB5-73B9-2839-C6ED-66CAA0ED7BA6}.wem"
+     },
+     {
+      "Id": "124979899",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_03.wav",
+      "Path": "Media/124979899.wem",
+      "CachePath": "09/{09FE5DB4-51AB-45D2-EC9B-3AEC41FF2E5A}.wem"
+     },
+     {
+      "Id": "233485221",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_07.wav",
+      "Path": "Media/233485221.wem",
+      "CachePath": "0E/{0E7803AE-BCFA-B6C0-E5AD-3E24542D963B}.wem"
+     },
+     {
+      "Id": "235339119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_08.wav",
+      "Path": "Media/235339119.wem",
+      "CachePath": "8D/{8DE93B18-C6C7-2BBB-882E-3FCF8B432F3E}.wem"
+     },
+     {
+      "Id": "478699748",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_10.wav",
+      "Path": "Media/478699748.wem",
+      "CachePath": "ED/{EDF07FAD-78D2-F0BA-D96B-B991B76F9637}.wem"
+     },
+     {
+      "Id": "683354537",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_02.wav",
+      "Path": "Media/683354537.wem",
+      "CachePath": "89/{8952CB94-C579-ADDD-DEB9-52779E56EB48}.wem"
+     },
+     {
+      "Id": "711209823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_06.wav",
+      "Path": "Media/711209823.wem",
+      "CachePath": "F0/{F06A781B-9836-2765-B9BC-958381E61035}.wem"
+     },
+     {
+      "Id": "726994512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_05.wav",
+      "Path": "Media/726994512.wem",
+      "CachePath": "3B/{3BEDDAF2-F6CB-3F72-A84F-98DA269A4CBA}.wem"
+     },
+     {
+      "Id": "965100662",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_04.wav",
+      "Path": "Media/965100662.wem",
+      "CachePath": "25/{252B8C98-55DA-6E4B-8EF6-05BB0224E384}.wem"
+     },
+     {
+      "Id": "1057790391",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Create\\UI_Menu_Create_09.wav",
+      "Path": "Media/1057790391.wem",
+      "CachePath": "7A/{7A708AFF-2916-94F3-1D87-AF93859CFFE3}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1298183142",
+      "Name": "Play_Create",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Create",
+      "GUID": "{6FC6F3B6-EF83-480D-951A-CA6ECCE85D85}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.19599845",
+      "DurationMax": "0.20940463",
+      "MediaRefs": [
+       {
+        "Id": "101717366"
+       },
+       {
+        "Id": "124979899"
+       },
+       {
+        "Id": "233485221"
+       },
+       {
+        "Id": "235339119"
+       },
+       {
+        "Id": "478699748"
+       },
+       {
+        "Id": "683354537"
+       },
+       {
+        "Id": "711209823"
+       },
+       {
+        "Id": "726994512"
+       },
+       {
+        "Id": "965100662"
+       },
+       {
+        "Id": "1057790391"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DA942AC6-3151-AEE9-083E-509BD1BD492E}"
+ }
+}

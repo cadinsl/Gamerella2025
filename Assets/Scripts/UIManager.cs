@@ -11,6 +11,8 @@ public class UIManager : MonoBehaviour
     public AK.Wwise.Event playTuggleRight;
     public AK.Wwise.Event playCreate;
     public AK.Wwise.Event playOverview;
+    public AK.Wwise.Event playOverviewBack;
+
 
     public void Awake()
     {
@@ -60,5 +62,10 @@ public class UIManager : MonoBehaviour
     public void Overview()
     {
         playOverview.Post(gameObject);
+    }
+
+    public void OverviewBack()
+    {
+        playOverviewBack.Post(gameObject);
     }
 }
