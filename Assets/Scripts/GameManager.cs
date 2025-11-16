@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
         ControlUI.SetActive(true);
         ControlCamera.SetActive(true);
         OverviewCamera.SetActive(false);
+        SelectionController.SetActive(false);
         ControlCamera.GetComponent<CinemachineCamera>().Follow = character.transform;
         Camera.main.orthographic = true;
     }

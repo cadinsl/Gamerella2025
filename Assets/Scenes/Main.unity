@@ -6074,8 +6074,8 @@ MonoBehaviour:
     CustomLookAtTarget: 0
   Lens:
     FieldOfView: 60.000004
-    OrthographicSize: 6
-    NearClipPlane: 0.3
+    OrthographicSize: 9.17
+    NearClipPlane: 0.01
     FarClipPlane: 1000
     Dutch: 0
     ModeOverride: 0
@@ -6120,12 +6120,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TrackerSettings:
-    BindingMode: 4
+    BindingMode: 3
     PositionDamping: {x: 1, y: 1, z: 1}
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: -5.8, y: 5.84, z: -4.01}
+  FollowOffset: {x: -5.8, y: 8.3, z: -7.83}
 --- !u!114 &1255229373
 MonoBehaviour:
   m_ObjectHideFlags: 0
