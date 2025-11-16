@@ -43,6 +43,7 @@ public class CharacterCustomization : MonoBehaviour
         SetItem("hair");
         SetItem("hairColor");
         SetItem("bodyColor");
+        SetItem("pantsColor");
     }
 
     public void SelectFaces(bool isForward)
@@ -133,7 +134,7 @@ public class CharacterCustomization : MonoBehaviour
     {
         if (isForward)
         {
-            if (pantsColorID == CustomizationSingleton.Instance.colors.Count - 1)
+            if (pantsColorID == CustomizationSingleton.Instance.pantsColors.Count - 1)
             {
                 pantsColorID = 0;
             }
@@ -146,7 +147,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (pantsColorID == 0)
             {
-                pantsColorID = CustomizationSingleton.Instance.colors.Count - 1;
+                pantsColorID = CustomizationSingleton.Instance.pantsColors.Count - 1;
             }
             else
             {
@@ -200,6 +201,7 @@ public class CharacterCustomization : MonoBehaviour
                 currentHairGameObject = hairs[hairID];
                 currentHairGameObject.SetActive(true);
                 SetItem("hairColor");
+                SetItem("pantsColor");
                 break;
             case "hairColor":
                 string screenColorName = CustomizationSingleton.Instance.skinColors.Keys.ElementAt(hairColorID);
@@ -218,11 +220,11 @@ public class CharacterCustomization : MonoBehaviour
                 }
                 break;
             case "pantsColor":
-                string pantsColorName = CustomizationSingleton.Instance.colors.Keys.ElementAt(pantsColorID);
+                string pantsColorName = CustomizationSingleton.Instance.pantsColors.Keys.ElementAt(pantsColorID);
                 pantsColorText.text = pantsColorName.ToLower();
-                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(pantsColorID), out Color pantsColor))
+                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.pantsColors.Values.ElementAt(pantsColorID), out Color pantsColor))
                 {
-                    //rend.materials[0].SetColor("_BaseColor", bodyColor);
+                    currentHairGameObject.GetComponent<MeshRenderer>().materials[0].SetColor("_BaseColor", pantsColor);
                 }
                 break;
         }
@@ -231,6 +233,6 @@ public class CharacterCustomization : MonoBehaviour
 
     public void next()
     {
-        characterInitializer.setCharacter(faceID, bodyColorID, hairID, hairColorID);
+        characterInitializer.setCharacter(faceID, bodyColorID, hairID, hairColorID, pantsColorID);
     }
 }

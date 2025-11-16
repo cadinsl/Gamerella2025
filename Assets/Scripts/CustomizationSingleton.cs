@@ -35,6 +35,26 @@ public class CustomizationSingleton : MonoBehaviour
             {"10", "#5f2d15"}
         };
 
+    public Dictionary<string, string> pantsColors =
+        new Dictionary<string, string>() {
+            {"1", "#E74C3C" },
+            {"2", "#E78A3C"},
+            {"3", "#FFFF00"},
+            {"4", "#27D491"},
+            {"5", "#4C3CE7"},
+            {"6", "#7A3CE7"},
+            {"7", "#1A1A1A"},
+            {"8", "#7F7F7F"},
+            {"9", "#EEEEEE"},
+            {"10", "#d0a04b"},
+            {"11", "#b7b7b7"},
+            {"12", "#3d3d3d"},
+            {"13", "#0a0503"},
+            {"14", "#3d3d3d"},
+            {"15", "#4f3e10"},
+            {"16", "#875818"}
+        };
+
     [SerializeField] public Texture[] faces;
     [SerializeField] public Mesh[] hairs;
 

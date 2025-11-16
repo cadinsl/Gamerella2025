@@ -17,8 +17,9 @@ public class CharacterInitializer : MonoBehaviour
     private int _bodyColorID;
     private int _hairID;
     private int _hairColorID;
+    private int _pantsColorID;
 
-    public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID)
+    public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID, int cPantsColorID)
     {
         characterInstance = Instantiate(characters[1], playerInitPosition);
         rend = characterInstance.GetComponent<MiiCustomization>().rend;
@@ -26,11 +27,13 @@ public class CharacterInitializer : MonoBehaviour
         setFace(cFaceID);
         setHairColor(cHairColorID);
         setBodyColor(cBodyColorID);
+        setPantsColor(cPantsColorID);
 
         _faceID = cFaceID;
         _bodyColorID = cBodyColorID;
         _hairID = cHairID;
         _hairColorID = cHairColorID;
+        _pantsColorID = cPantsColorID;
     }
 
     private void setHair(int cHairID)
@@ -56,6 +59,14 @@ public class CharacterInitializer : MonoBehaviour
         if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(cBodyColorID), out Color bodyColor))
         {
             rend.materials[0].SetColor("_BaseColor", bodyColor);
+        }
+    }
+
+    private void setPantsColor(int cPantsColorID)
+    {
+        if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.pantsColors.Values.ElementAt(cPantsColorID), out Color pantsColor))
+        {
+            characterInstance.GetComponent<PersonalManager>().currentHairObject.GetComponent<MeshRenderer>().materials[0].SetColor("_BaseColor", pantsColor);
         }
     }
 }
