@@ -887,6 +887,32 @@
 							</ObjectLists>
 						</MusicSegment>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo MusicSyncType="3">
+								<StateGroupRef Name="Gameplay" ID="{8E3FBD11-CDCE-47DE-9444-88D2719D02C9}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Menu" ID="{2A93EB17-18C4-461B-BF6C-C3E24115C70D}"/>
+								<CustomState Name="" ID="{86699104-C9C7-4510-9C5B-43FB33EE350F}" ShortID="618403716">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16" Value="63"/>
+										<Property Name="Volume" Type="Real64" Value="3"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="None" ID="{E117C120-D633-4629-B6CC-CE21CB549AF1}"/>
+								<CustomState Name="" ID="{2EC66F1C-F58F-4680-800F-FA5CA858269B}" ShortID="714905805"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Overview" ID="{50ECBC5F-348F-482E-9BC6-6D6B429E7B64}"/>
+								<CustomState Name="" ID="{54E83725-64D8-4B2B-B3B1-39B8FE5A3096}" ShortID="845084578"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</MusicPlaylistContainer>
 			</ChildrenList>
 		</WorkUnit>
