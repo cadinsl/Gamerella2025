@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MUS_GAMEPLAY" ID="{EC87B3AE-ABC0-43AD-A9FC-68728AAFE79B}">
+					<ChildrenList>
+						<Action Name="" ID="{651C17DD-8FD8-41F8-BEC8-3D48E52D5987}" ShortID="449620168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUS_GAMEPLAY" ID="{78C822B5-D3C8-4EA0-9B8C-97ECDB509C7F}" WorkUnitID="{42D25B21-144D-4395-894F-537BB963549A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
+        static const AkUniqueID PLAY_MUS_GAMEPLAY = 2201569778U;
     } // namespace EVENTS
 
     namespace SWITCHES

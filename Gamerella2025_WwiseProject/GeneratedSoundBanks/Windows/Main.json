@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{4C1F914A-522F-4035-9E7A-ECA1B1C0BAF9}",
     "Language": "SFX",
-    "Hash": "{8A9C4D96-05C7-A6B2-6583-2D85AB3DD2B4}",
+    "Hash": "{82DEAABE-AE42-4713-F1FE-BD39C2A91804}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -21,7 +21,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_04.wav",
-      "CachePath": "0F/{0F16AFB0-2AA2-6413-D394-80F212927AD8}.wem"
+      "CachePath": "9F/{9F929B88-898F-6A5C-F827-6194C97A7577}.wem"
+     },
+     {
+      "Id": "31534451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_PianoLead_Zone1_16bar_140.wav",
+      "CachePath": "CF/{CF9FE99D-F247-AEE6-6F15-A081894ADC0E}.wem"
      },
      {
       "Id": "40053902",
@@ -37,7 +45,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_01.wav",
-      "CachePath": "F8/{F8550F4F-A7FC-11F2-6464-A6DF75D271D3}.wem"
+      "CachePath": "2C/{2C0CA474-D25E-EFB4-89D9-0CBFC5F9D877}.wem"
      },
      {
       "Id": "113918725",
@@ -45,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_06.wav",
-      "CachePath": "5E/{5E5F8075-CA3F-8646-7CA5-9AC34D1602CA}.wem"
+      "CachePath": "A9/{A985DDDF-4DE4-199F-3312-FD450627473F}.wem"
      },
      {
       "Id": "195080778",
@@ -61,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_10.wav",
-      "CachePath": "71/{7155E60C-39F8-453C-A951-261B7EE3EA2F}.wem"
+      "CachePath": "9D/{9DACFEA8-5981-196F-F645-44BFE75089B2}.wem"
      },
      {
       "Id": "226153435",
@@ -72,12 +80,20 @@
       "CachePath": "CC/{CCDD3490-88AF-71C6-D047-B4E6D33F0298}.wem"
      },
      {
+      "Id": "237620839",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano3_Zone1.5_16bar_140.wav",
+      "CachePath": "DE/{DE05762E-0731-879D-DF81-6F0F0DBF5A08}.wem"
+     },
+     {
       "Id": "291823059",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_08.wav",
-      "CachePath": "E3/{E3182475-4C56-136B-6F76-1DE923357C98}.wem"
+      "CachePath": "CE/{CE051D83-ED5D-A58E-AF9C-6B4386F7CFE7}.wem"
      },
      {
       "Id": "342816583",
@@ -85,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_02.wav",
-      "CachePath": "4A/{4A1EB8CA-505B-DAF0-24C8-F77E2C9A0E98}.wem"
+      "CachePath": "F2/{F2C63A16-4208-77D8-445A-0B3C21134120}.wem"
      },
      {
       "Id": "396160927",
@@ -93,7 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_09.wav",
-      "CachePath": "D3/{D3E51C2F-DEF1-A7C3-6254-8839425E290A}.wem"
+      "CachePath": "C6/{C6597217-3653-0743-2B9B-C4C210FCE11E}.wem"
      },
      {
       "Id": "403576211",
@@ -125,7 +141,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_03.wav",
-      "CachePath": "67/{671EA449-33DA-E79F-78AE-A22224532330}.wem"
+      "CachePath": "4E/{4E6BED0C-DE56-435F-01D3-12F90B5E05B2}.wem"
      },
      {
       "Id": "710662228",
@@ -133,7 +149,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_05.wav",
-      "CachePath": "E5/{E5EF88FB-01BB-9CD1-6DFA-8613050499EC}.wem"
+      "CachePath": "10/{1019584B-6D3B-1DF0-B230-3C0CDB105FCA}.wem"
+     },
+     {
+      "Id": "764399647",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano2_Zone1_16bar_140.wav",
+      "CachePath": "60/{602A9338-2916-81EE-C4B9-D93B046D5F63}.wem"
+     },
+     {
+      "Id": "765274988",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano2_Zone1.5_16bar_140.wav",
+      "CachePath": "F3/{F3DF7BAA-16EA-0463-E660-7D34130AD77B}.wem"
      },
      {
       "Id": "861666903",
@@ -141,7 +173,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "SFX_Player_Carpet_Footsteps_07.wav",
-      "CachePath": "59/{598E66B4-BB1D-C80E-3F92-BD5CE1A57F5B}.wem"
+      "CachePath": "EA/{EA4EAC00-CBE8-8106-89CB-03DFEADFFDC6}.wem"
+     },
+     {
+      "Id": "918899714",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_Piano3_Zone1_16bar_140.wav",
+      "CachePath": "7B/{7B84A671-42AF-E6A5-785F-82931A56C817}.wem"
+     },
+     {
+      "Id": "921246295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BGM_Curyeux_HUB3_PianoLead_Zone1.5_16bar_140.wav",
+      "CachePath": "C9/{C9AB41EA-6326-5AC0-15BD-32E8D4DC2DE1}.wem"
      },
      {
       "Id": "943090276",
@@ -287,6 +335,33 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "2201569778",
+      "Name": "Play_MUS_GAMEPLAY",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUS_GAMEPLAY",
+      "GUID": "{EC87B3AE-ABC0-43AD-A9FC-68728AAFE79B}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "31534451"
+       },
+       {
+        "Id": "237620839"
+       },
+       {
+        "Id": "764399647"
+       },
+       {
+        "Id": "765274988"
+       },
+       {
+        "Id": "918899714"
+       },
+       {
+        "Id": "921246295"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -313,6 +388,6 @@
     ]
    }
   ],
-  "FileHash": "{EE8A2D72-E694-24FA-51F3-97D5BEB4A433}"
+  "FileHash": "{4512B8E9-F42D-D6E8-0046-F3EA66D3932C}"
  }
 }
