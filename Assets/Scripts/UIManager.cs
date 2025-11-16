@@ -7,8 +7,8 @@ public class UIManager : MonoBehaviour
     public AK.Wwise.Bank soundBank;
     public AK.Wwise.Event playHoverOn;
     public AK.Wwise.Event playHoverOff;
-    public AK.Wwise.Event playTuggleLeft;
-    public AK.Wwise.Event playTuggleRight;
+    public AK.Wwise.Event playToggleLeft;
+    public AK.Wwise.Event playToggleRight;
     public AK.Wwise.Event playCreate;
     public AK.Wwise.Event playOverview;
     public AK.Wwise.Event playOverviewBack;
@@ -44,14 +44,14 @@ public class UIManager : MonoBehaviour
         playHoverOff.Post(gameObject);
     }
 
-    public void TuggleLeft()
+    public void ToggleLeft()
     {
-        playTuggleLeft.Post(gameObject);
+        playToggleLeft.Post(gameObject);
     }
 
-    public void TuggleRight()
+    public void ToggleRight()
     {
-        playTuggleRight.Post(gameObject);
+        playToggleRight.Post(gameObject);
     }
 
     public void Create()
