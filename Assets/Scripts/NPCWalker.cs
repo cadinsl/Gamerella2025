@@ -50,7 +50,7 @@ public class NPCWalker : MonoBehaviour
 
         if (_isWalkTimerActive)
         {
-            playFootsteps();
+            //playFootsteps();
             _walkCurrentTime -= Time.deltaTime;
 
             if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance + stoppingThreshold)

@@ -6,6 +6,9 @@ public class AudioEventSingleton : MonoBehaviour
 
     public static AudioEventSingleton Instance { get { return _instance; } }
 
+
+    public AK.Wwise.Event footstepSound;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -29,5 +32,10 @@ public class AudioEventSingleton : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void playFootsteps()
+    {
+        AkUnitySoundEngine.PostEvent(footstepSound.Id, this.gameObject);
     }
 }
