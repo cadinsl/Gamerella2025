@@ -6,6 +6,7 @@ public class PersonalManager : MonoBehaviour
     public CharacterControl characterControl;
     public NavMeshAgent agent;
     public NPCWalker npcWalker;
+    public GameObject[] hairs;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +16,11 @@ public class PersonalManager : MonoBehaviour
         npcWalker = GetComponent<NPCWalker>();
         npcWalker.enabled = true;
         characterControl.disableControl();
+    }
+
+    public void setHairs(int hairID)
+    {
+        hairs[hairID].SetActive(true);
     }
 
     public void enableControl()

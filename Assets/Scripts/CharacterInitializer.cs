@@ -20,8 +20,9 @@ public class CharacterInitializer : MonoBehaviour
 
     public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID)
     {
-        characterInstance = setHair(cHairID);
+        characterInstance = Instantiate(characters[1], playerInitPosition);
         rend = characterInstance.GetComponent<MiiCustomization>().rend;
+        setHair(cHairID);
         setFace(cFaceID);
         setHairColor(cHairColorID);
         setBodyColor(cBodyColorID);
@@ -32,9 +33,9 @@ public class CharacterInitializer : MonoBehaviour
         _hairColorID = cHairColorID;
     }
 
-    private GameObject setHair(int cHairID)
+    private void setHair(int cHairID)
     {
-        return Instantiate(characters[cHairID], playerInitPosition);
+        characterInstance.GetComponent<PersonalManager>().setHairs(cHairID);
     }
 
     private void setFace(int cFaceID)
@@ -44,7 +45,7 @@ public class CharacterInitializer : MonoBehaviour
 
     private void setHairColor(int cHairColorID)
     {
-        if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(cHairColorID), out Color hairColor))
+        if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.skinColors.Values.ElementAt(cHairColorID), out Color hairColor))
         {
             rend.materials[1].SetColor("_BaseColor", hairColor);
         }

@@ -21,8 +21,22 @@ public class CustomizationSingleton : MonoBehaviour
             {"White", "#EEEEEE"}
         };
 
+    public Dictionary<string, string> skinColors =
+        new Dictionary<string, string>() {
+            {"1", "#fbbea0" },
+            {"2", "#fba68b"},
+            {"3", "#dd793e"},
+            {"4", "#893d21"},
+            {"5", "#3d3d3d"},
+            {"6", "#fed0ad"},
+            {"7", "#fac48d"},
+            {"8", "#fbb569"},
+            {"9", "#ac5127"},
+            {"10", "#5f2d15"}
+        };
+
     [SerializeField] public Texture[] faces;
-    [SerializeField] public GameObject[] hairs;
+    [SerializeField] public Mesh[] hairs;
 
 
     private void Awake()

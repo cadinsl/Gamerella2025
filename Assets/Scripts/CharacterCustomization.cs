@@ -5,7 +5,7 @@ using System.Linq;
 
 public class CharacterCustomization : MonoBehaviour
 {
-    private Renderer rend;
+    public Renderer rend;
 
     private int faceID;
     private int bodyColorID;
@@ -13,7 +13,10 @@ public class CharacterCustomization : MonoBehaviour
     private int hairColorID;
     private int pantsColorID;
 
-    private GameObject currentHairGameObject;
+    public GameObject[] hairs;
+
+    public GameObject currentSkinGameObject;
+    public GameObject currentHairGameObject;
 
 
     [SerializeField] private TextMeshProUGUI faceText;
@@ -35,8 +38,7 @@ public class CharacterCustomization : MonoBehaviour
 
     private void Start()
     {
-        currentHairGameObject = CustomizationSingleton.Instance.hairs[0];
-        rend = currentHairGameObject.GetComponent<MiiCustomization>().rend;
+        rend = currentSkinGameObject.GetComponent<MiiCustomization>().rend;
         SetItem("face");
         SetItem("hair");
         SetItem("hairColor");
@@ -160,7 +162,7 @@ public class CharacterCustomization : MonoBehaviour
     {
         if (isForward)
         {
-            if (hairColorID == CustomizationSingleton.Instance.colors.Count - 1)
+            if (hairColorID == CustomizationSingleton.Instance.skinColors.Count - 1)
             {
                 hairColorID = 0;
             }
@@ -173,7 +175,7 @@ public class CharacterCustomization : MonoBehaviour
         {
             if (hairColorID == 0)
             {
-                hairColorID = CustomizationSingleton.Instance.colors.Count - 1;
+                hairColorID = CustomizationSingleton.Instance.skinColors.Count - 1;
             }
             else
             {
@@ -195,17 +197,14 @@ public class CharacterCustomization : MonoBehaviour
             case "hair":
                 hairText.text = CustomizationSingleton.Instance.hairs[hairID].name;
                 currentHairGameObject.SetActive(false);
-                currentHairGameObject = CustomizationSingleton.Instance.hairs[hairID];
+                currentHairGameObject = hairs[hairID];
                 currentHairGameObject.SetActive(true);
-                rend = currentHairGameObject.GetComponent<MiiCustomization>().rend;
-                SetItem("face");
                 SetItem("hairColor");
-                SetItem("bodyColor");
                 break;
             case "hairColor":
-                string screenColorName = CustomizationSingleton.Instance.colors.Keys.ElementAt(hairColorID);
+                string screenColorName = CustomizationSingleton.Instance.skinColors.Keys.ElementAt(hairColorID);
                 hairColorText.text = screenColorName.ToLower();
-                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(hairColorID), out Color hairColor))
+                if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.skinColors.Values.ElementAt(hairColorID), out Color hairColor))
                 {
                     rend.materials[1].SetColor("_BaseColor", hairColor);
                 }
