@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1012989952	Foosteps			\Default Work Unit\Foosteps	
+
+Switch	ID	Name	Switch Group			Notes
+	2412606308	Carpet	Foosteps			
+	3928445212	Hardfloor	Foosteps			
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	31341927	SFX_Player_Carpet_Footsteps_04	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\0F\{0F16AFB0-2AA2-6413-D394-80F212927AD8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_04		98980
+	40053902	SFX_Player_Hardfloor_Footsteps_04	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\A7\{A7539220-C15A-E0F2-186B-B0B187CD20D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_04		93100
+	104195498	SFX_Player_Carpet_Footsteps_01	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\F8\{F8550F4F-A7FC-11F2-6464-A6DF75D271D3}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_01		96820
+	113918725	SFX_Player_Carpet_Footsteps_06	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\5E\{5E5F8075-CA3F-8646-7CA5-9AC34D1602CA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_06		101620
+	195080778	SFX_Player_Hardfloor_Footsteps_10	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\99\{995B3605-BAD2-18D3-C83B-0CA04FC25ED6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_10		93100
+	210195250	SFX_Player_Carpet_Footsteps_10	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\71\{7155E60C-39F8-453C-A951-261B7EE3EA2F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_10		95260
+	226153435	SFX_Player_Hardfloor_Footsteps_01	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\CC\{CCDD3490-88AF-71C6-D047-B4E6D33F0298}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_01		93100
+	291823059	SFX_Player_Carpet_Footsteps_08	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\E3\{E3182475-4C56-136B-6F76-1DE923357C98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_08		86860
+	342816583	SFX_Player_Carpet_Footsteps_02	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\4A\{4A1EB8CA-505B-DAF0-24C8-F77E2C9A0E98}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_02		96580
+	396160927	SFX_Player_Carpet_Footsteps_09	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\D3\{D3E51C2F-DEF1-A7C3-6254-8839425E290A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_09		96340
+	403576211	SFX_Player_Hardfloor_Footsteps_08	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\3C\{3CF8CCF6-19AB-DCA6-A926-3AFEF370E540}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_08		93100
+	546517171	SFX_Player_Hardfloor_Footsteps_05	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\F8\{F8566155-C644-A2D8-16A4-EB4A0C4098E9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_05		93100
+	666457954	SFX_Player_Hardfloor_Footsteps_06	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\9F\{9FFD65E5-43E1-2C2F-8A14-EA3C7D678995}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_06		93100
+	699375638	SFX_Player_Carpet_Footsteps_03	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\67\{671EA449-33DA-E79F-78AE-A22224532330}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_03		98980
+	710662228	SFX_Player_Carpet_Footsteps_05	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\E5\{E5EF88FB-01BB-9CD1-6DFA-8613050499EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_05		97780
+	861666903	SFX_Player_Carpet_Footsteps_07	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\59\{598E66B4-BB1D-C80E-3F92-BD5CE1A57F5B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Carpet\SFX_Player_Carpet_Footsteps_07		99460
+	943090276	SFX_Player_Hardfloor_Footsteps_02	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\13\{133C8B77-FC1D-347E-8738-599440E9BABA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_02		93100
+	955541119	SFX_Player_Hardfloor_Footsteps_03	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\1F\{1F531AFD-C5BF-EC5A-7694-7A82C9919A8A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_03		93100
+	993399933	SFX_Player_Hardfloor_Footsteps_07	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\EA\{EA81BD28-79FE-2B60-40F5-18845D7B31DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_07		93100
+	1049427299	SFX_Player_Hardfloor_Footsteps_09	D:\Games\Gamerella2025\Gamerella2025_WwiseProject\.cache\5F\{5F67F9A2-340E-7013-BB0E-C3AA762DA1A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Footsteps\SFX_Footsteps_Hardfloor\SFX_Player_Hardfloor_Footsteps_09		93100
+
