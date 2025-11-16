@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
         ControlCamera.SetActive(false);
         ControlUI.SetActive(false);
         SelectionController.SetActive(true);
+        SelectionController.GetComponent<SelectionController>().isActive = true;
         Camera.main.orthographic = false;
     }
 
@@ -37,6 +38,7 @@ public class GameManager : MonoBehaviour
         OverviewUI.SetActive(false);
         OverviewCamera.SetActive(false);
         CustomizationCamera.SetActive(true);
+        SelectionController.GetComponent<SelectionController>().isActive = false;
         SelectionController.SetActive(false);
     }
 
@@ -48,6 +50,7 @@ public class GameManager : MonoBehaviour
         ControlCamera.SetActive(true);
         OverviewCamera.SetActive(false);
         SelectionController.SetActive(false);
+        SelectionController.GetComponent<SelectionController>().isActive = false;
         ControlCamera.GetComponent<CinemachineCamera>().Follow = character.transform;
         Camera.main.orthographic = true;
     }

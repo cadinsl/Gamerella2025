@@ -207,7 +207,7 @@ public class CharacterCustomization : MonoBehaviour
                 hairColorText.text = screenColorName.ToLower();
                 if (ColorUtility.TryParseHtmlString(CustomizationSingleton.Instance.colors.Values.ElementAt(hairColorID), out Color hairColor))
                 {
-                    //rend.materials[2].SetColor("_BaseColor", hairColor);
+                    rend.materials[1].SetColor("_BaseColor", hairColor);
                 }
                 break;
             case "bodyColor":

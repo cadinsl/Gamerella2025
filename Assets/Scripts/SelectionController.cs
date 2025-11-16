@@ -7,7 +7,7 @@ public class SelectionController : MonoBehaviour
 	private InputAction actionInput;
     public Camera camera;
     public PersonalManager currentMiiManager;
-    private bool isActive = true;
+    public bool isActive = true;
 	// Start is called once before the first execution of Update after the MonoBehaviour is created
 	void Start()
     {
