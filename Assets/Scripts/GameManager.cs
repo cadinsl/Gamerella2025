@@ -1,4 +1,5 @@
 using UnityEngine;
+using Unity.Cinemachine;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,8 +11,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject CustomizationUI;
     [SerializeField] private GameObject CustomizationObject;
     [SerializeField] private GameObject OverviewUI;
+    [SerializeField] private GameObject ControlUI;
     [SerializeField] private GameObject OverviewCamera;
     [SerializeField] private GameObject CustomizationCamera;
+    [SerializeField] private GameObject ControlCamera;
+    [SerializeField] private GameObject SelectionController;
 
     public void goToOverview()
     {
@@ -20,6 +24,9 @@ public class GameManager : MonoBehaviour
         OverviewUI.SetActive(true);
         OverviewCamera.SetActive(true);
         CustomizationCamera.SetActive(false);
+        ControlCamera.SetActive(false);
+        ControlUI.SetActive(false);
+        SelectionController.SetActive(true);
     }
 
     public void goToCustomization()
@@ -29,6 +36,17 @@ public class GameManager : MonoBehaviour
         OverviewUI.SetActive(false);
         OverviewCamera.SetActive(false);
         CustomizationCamera.SetActive(true);
+        SelectionController.SetActive(false);
+    }
+
+    public void goToControl(GameObject character)
+    {
+        OverviewUI.SetActive(false);
+        OverviewCamera.SetActive(false);
+        ControlUI.SetActive(true);
+        ControlCamera.SetActive(true);
+        OverviewCamera.SetActive(false);
+        ControlCamera.GetComponent<CinemachineCamera>().Follow = character.transform;
     }
 
     private void Awake()
