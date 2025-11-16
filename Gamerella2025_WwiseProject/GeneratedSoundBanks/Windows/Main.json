@@ -10,12 +10,309 @@
     "Type": "User",
     "GUID": "{4C1F914A-522F-4035-9E7A-ECA1B1C0BAF9}",
     "Language": "SFX",
-    "Hash": "{11CE3D2C-B4A2-49DB-D6D7-5BEFB7DE3069}",
+    "Hash": "{8A9C4D96-05C7-A6B2-6583-2D85AB3DD2B4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
-    "Path": "Main.bnk"
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "31341927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_04.wav",
+      "CachePath": "0F/{0F16AFB0-2AA2-6413-D394-80F212927AD8}.wem"
+     },
+     {
+      "Id": "40053902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_04.wav",
+      "CachePath": "A7/{A7539220-C15A-E0F2-186B-B0B187CD20D4}.wem"
+     },
+     {
+      "Id": "104195498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_01.wav",
+      "CachePath": "F8/{F8550F4F-A7FC-11F2-6464-A6DF75D271D3}.wem"
+     },
+     {
+      "Id": "113918725",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_06.wav",
+      "CachePath": "5E/{5E5F8075-CA3F-8646-7CA5-9AC34D1602CA}.wem"
+     },
+     {
+      "Id": "195080778",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_10.wav",
+      "CachePath": "99/{995B3605-BAD2-18D3-C83B-0CA04FC25ED6}.wem"
+     },
+     {
+      "Id": "210195250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_10.wav",
+      "CachePath": "71/{7155E60C-39F8-453C-A951-261B7EE3EA2F}.wem"
+     },
+     {
+      "Id": "226153435",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_01.wav",
+      "CachePath": "CC/{CCDD3490-88AF-71C6-D047-B4E6D33F0298}.wem"
+     },
+     {
+      "Id": "291823059",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_08.wav",
+      "CachePath": "E3/{E3182475-4C56-136B-6F76-1DE923357C98}.wem"
+     },
+     {
+      "Id": "342816583",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_02.wav",
+      "CachePath": "4A/{4A1EB8CA-505B-DAF0-24C8-F77E2C9A0E98}.wem"
+     },
+     {
+      "Id": "396160927",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_09.wav",
+      "CachePath": "D3/{D3E51C2F-DEF1-A7C3-6254-8839425E290A}.wem"
+     },
+     {
+      "Id": "403576211",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_08.wav",
+      "CachePath": "3C/{3CF8CCF6-19AB-DCA6-A926-3AFEF370E540}.wem"
+     },
+     {
+      "Id": "546517171",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_05.wav",
+      "CachePath": "F8/{F8566155-C644-A2D8-16A4-EB4A0C4098E9}.wem"
+     },
+     {
+      "Id": "666457954",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_06.wav",
+      "CachePath": "9F/{9FFD65E5-43E1-2C2F-8A14-EA3C7D678995}.wem"
+     },
+     {
+      "Id": "699375638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_03.wav",
+      "CachePath": "67/{671EA449-33DA-E79F-78AE-A22224532330}.wem"
+     },
+     {
+      "Id": "710662228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_05.wav",
+      "CachePath": "E5/{E5EF88FB-01BB-9CD1-6DFA-8613050499EC}.wem"
+     },
+     {
+      "Id": "861666903",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Carpet_Footsteps_07.wav",
+      "CachePath": "59/{598E66B4-BB1D-C80E-3F92-BD5CE1A57F5B}.wem"
+     },
+     {
+      "Id": "943090276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_02.wav",
+      "CachePath": "13/{133C8B77-FC1D-347E-8738-599440E9BABA}.wem"
+     },
+     {
+      "Id": "955541119",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_03.wav",
+      "CachePath": "1F/{1F531AFD-C5BF-EC5A-7694-7A82C9919A8A}.wem"
+     },
+     {
+      "Id": "993399933",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_07.wav",
+      "CachePath": "EA/{EA81BD28-79FE-2B60-40F5-18845D7B31DE}.wem"
+     },
+     {
+      "Id": "1049427299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SFX_Player_Hardfloor_Footsteps_09.wav",
+      "CachePath": "5F/{5F67F9A2-340E-7013-BB0E-C3AA762DA1A8}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{F03356FA-71A0-4446-8238-111CBBD81496}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45182294",
+      "DurationMax": "0.5286891",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1012989952",
+         "Id": "2412606308",
+         "GUID": "{83DAC9C0-0179-4155-9A14-23CEB5002FD2}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "31341927"
+         },
+         {
+          "Id": "104195498"
+         },
+         {
+          "Id": "113918725"
+         },
+         {
+          "Id": "210195250"
+         },
+         {
+          "Id": "291823059"
+         },
+         {
+          "Id": "342816583"
+         },
+         {
+          "Id": "396160927"
+         },
+         {
+          "Id": "699375638"
+         },
+         {
+          "Id": "710662228"
+         },
+         {
+          "Id": "861666903"
+         }
+        ],
+        "PluginRefs": {
+         "ShareSets": [
+          {
+           "Id": "1008402193"
+          }
+         ]
+        }
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "1012989952",
+         "Id": "3928445212",
+         "GUID": "{28762DF7-79C1-48BC-9261-33BAFF578553}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "40053902"
+         },
+         {
+          "Id": "195080778"
+         },
+         {
+          "Id": "226153435"
+         },
+         {
+          "Id": "403576211"
+         },
+         {
+          "Id": "546517171"
+         },
+         {
+          "Id": "666457954"
+         },
+         {
+          "Id": "943090276"
+         },
+         {
+          "Id": "955541119"
+         },
+         {
+          "Id": "993399933"
+         },
+         {
+          "Id": "1049427299"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1012989952",
+      "Name": "Foosteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps",
+      "GUID": "{2863E6D4-D70D-440A-A998-E20B0AABFEF7}",
+      "Switches": [
+       {
+        "Id": "2412606308",
+        "Name": "Carpet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps\\Carpet",
+        "GUID": "{83DAC9C0-0179-4155-9A14-23CEB5002FD2}"
+       },
+       {
+        "Id": "3928445212",
+        "Name": "Hardfloor",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Foosteps\\Hardfloor",
+        "GUID": "{28762DF7-79C1-48BC-9261-33BAFF578553}"
+       }
+      ]
+     }
+    ]
    }
   ],
-  "FileHash": "{36B1DEDE-6998-7FCC-AB36-89BD64AFEAE3}"
+  "FileHash": "{EE8A2D72-E694-24FA-51F3-97D5BEB4A433}"
  }
 }
