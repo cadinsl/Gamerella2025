@@ -35,7 +35,40 @@ public class SelectionController : MonoBehaviour
         GameManager.Instance.goToOverview();
     }
 
-	private void Fire(InputAction.CallbackContext context)
+    private void Update()
+    {
+        if (isActive)
+        {
+            RaycastHit hitInfo = new RaycastHit();
+            bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue()), out hitInfo);
+            if (hit)
+            {
+                if (hitInfo.transform.gameObject.tag == "Mii")
+                {
+                    currentMiiManager = hitInfo.transform.gameObject.GetComponent<PersonalManager>();
+                    currentMiiManager.enableHover();
+                }
+                else
+                {
+                    if (currentMiiManager != null)
+                    {
+                        currentMiiManager.disableHover();
+                        currentMiiManager = null;
+                    }
+                }
+            }
+            else
+            {
+                if (currentMiiManager != null)
+                {
+                    currentMiiManager.disableHover();
+                    currentMiiManager = null;
+                }
+            }
+        }
+    }
+
+    private void Fire(InputAction.CallbackContext context)
     {
         if(!isActive)
         {

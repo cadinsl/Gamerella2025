@@ -30,6 +30,19 @@ public class PersonalManager : MonoBehaviour
         agent.enabled = false;
         npcWalker.enabled = false;
         characterControl.enableControl();
+        disableHover();
+    }
+
+    public void enableHover()
+    {
+        GetComponent<Outline>().enabled = true;
+        currentHairObject.GetComponent<Outline>().enabled = true;
+    }
+
+    public void disableHover()
+    {
+        GetComponent<Outline>().enabled = false;
+        currentHairObject.GetComponent<Outline>().enabled = false;
     }
 
     public void enableNpc()
