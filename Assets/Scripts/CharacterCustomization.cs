@@ -235,4 +235,19 @@ public class CharacterCustomization : MonoBehaviour
     {
         characterInitializer.setCharacter(faceID, bodyColorID, hairID, hairColorID, pantsColorID);
     }
+
+    public void Randomize()
+    {
+        faceID = Random.Range(0, CustomizationSingleton.Instance.faces.Length - 1);
+        hairID = Random.Range(0, CustomizationSingleton.Instance.hairs.Length - 1);
+        bodyColorID = Random.Range(0, CustomizationSingleton.Instance.colors.Count - 1);
+        hairColorID = Random.Range(0, CustomizationSingleton.Instance.skinColors.Count - 1);
+        pantsColorID = Random.Range(0, CustomizationSingleton.Instance.pantsColors.Count - 1);
+
+        SetItem("face");
+        SetItem("hair");
+        SetItem("hairColor");
+        SetItem("bodyColor");
+        SetItem("pantsColor");
+    }
 }
