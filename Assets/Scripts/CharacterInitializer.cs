@@ -19,9 +19,16 @@ public class CharacterInitializer : MonoBehaviour
     private int _hairColorID;
     private int _pantsColorID;
 
-    public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID, int cPantsColorID)
+    public void setCharacter(int cFaceID, int cBodyColorID, int cHairID, int cHairColorID, int cPantsColorID, Transform initPosition = null)
     {
-        characterInstance = Instantiate(characters[1], playerInitPosition);
+        if (initPosition == null)
+        {
+            characterInstance = Instantiate(characters[1], playerInitPosition);
+        }
+        else
+        {
+            characterInstance = Instantiate(characters[1], initPosition);
+        }
         rend = characterInstance.GetComponent<MiiCustomization>().rend;
         setHair(cHairID);
         setFace(cFaceID);

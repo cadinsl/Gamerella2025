@@ -26,8 +26,17 @@ public class SelectionController : MonoBehaviour
 		actionInput.performed += Fire;
 	}
 
-	// Update is called once per frame
-	public void enableSelectionController()
+    private void OnDisable()
+    {
+        if (currentMiiManager != null)
+        {
+            currentMiiManager.disableHover();
+            currentMiiManager = null;
+        }
+    }
+
+    // Update is called once per frame
+    public void enableSelectionController()
     {
         currentMiiManager.enableNpc();
         isActive = true;
@@ -39,23 +48,25 @@ public class SelectionController : MonoBehaviour
     {
         if (isActive)
         {
-            RaycastHit hitInfo = new RaycastHit();
-            bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue()), out hitInfo);
-            if (hit)
+            handleHoverEffect();
+        }
+    }
+
+    private void handleHoverEffect()
+    {
+        RaycastHit hitInfo = new RaycastHit();
+        bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue()), out hitInfo);
+        if (hit)
+        {
+            if (hitInfo.transform.gameObject.tag == "Mii")
             {
-                if (hitInfo.transform.gameObject.tag == "Mii")
+                PersonalManager personalManager = hitInfo.transform.gameObject.GetComponent<PersonalManager>();
+                if (personalManager != currentMiiManager && currentMiiManager != null)
                 {
-                    currentMiiManager = hitInfo.transform.gameObject.GetComponent<PersonalManager>();
-                    currentMiiManager.enableHover();
+                    currentMiiManager.disableHover();
                 }
-                else
-                {
-                    if (currentMiiManager != null)
-                    {
-                        currentMiiManager.disableHover();
-                        currentMiiManager = null;
-                    }
-                }
+                currentMiiManager = personalManager;
+                currentMiiManager.enableHover();
             }
             else
             {
@@ -64,6 +75,14 @@ public class SelectionController : MonoBehaviour
                     currentMiiManager.disableHover();
                     currentMiiManager = null;
                 }
+            }
+        }
+        else
+        {
+            if (currentMiiManager != null)
+            {
+                currentMiiManager.disableHover();
+                currentMiiManager = null;
             }
         }
     }
